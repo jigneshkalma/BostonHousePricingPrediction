@@ -62,3 +62,10 @@ Created 'Dockerfile' to use it to do deployment on Heroku platform via docker co
 ```
 Created 'Github and workflows' folders and create the main.yaml file
 ```
+
+### Changes in main.yaml file using Github repo secrets
+```
+1. email: ${{ secrets.HEROKU_EMAIL }} add your heroku emial in github secret
+2. heroku_api_key: ${{ secrets.HEROKU_API_KEY }} add your heroku secret api key in github secret
+3. heroku_app_name: ${{ secrets.HEROKU_APP_NAME }} add your heroku app name in github secret
+```
