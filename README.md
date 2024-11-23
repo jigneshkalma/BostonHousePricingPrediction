@@ -22,4 +22,17 @@ conda activate venv/
 pip install -r requirements.txt
 ```
 
-###
+### Created Model 
+```
+Created a model of standard scalar and linear regression
+```
+
+### Created API
+```
+Created a POSTMAN API to test the Flask App
+```
+
+### Created App
+```
+Created a Flask web app for doing prediction using web portal
+```
