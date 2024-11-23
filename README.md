@@ -63,6 +63,16 @@ Created 'Dockerfile' to use it to do deployment on Heroku platform via docker co
 Created 'Github and workflows' folders and create the main.yaml file
 ```
 
+### How to add github secrets
+```
+1. go to github and open your repo.
+2. go to your repo setting and where you find security part on left side of setting menu.
+3. in that you find "Secrets and variable" and in that you have to click on actions.
+4. After click on action you have to click on New repository secret.
+5. After that you have to give your secret name and its value and create it.
+```
+
+
 ### Changes in main.yaml file using Github repo secrets
 ```
 1. email: ${{ secrets.HEROKU_EMAIL }} add your heroku emial in github secret
