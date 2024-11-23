@@ -36,3 +36,29 @@ Created a POSTMAN API to test the Flask App
 ```
 Created a Flask web app for doing prediction using web portal
 ```
+## For Heroku Manual Deployment
+
+### Created Procfile
+```
+Created Procfile to deploy the web app to Heroku cloud.
+```
+
+### Deploy Web App
+```
+Deploy the web app on Heroku using manual deploy from github repo.
+```
+
+### Link of Web App
+-> [Boston House Price Prediction Web App](https://bostonhousingprice1.herokuapp.com/predict)
+
+## For Heroku Deployment using Docker and Github Action
+
+### Created Docker File
+```
+Created 'Dockerfile' to use it to do deployment on Heroku platform via docker container
+```
+
+### Created github and workflows folder
+```
+Created 'Github and workflows' folders and create the main.yaml file
+```
